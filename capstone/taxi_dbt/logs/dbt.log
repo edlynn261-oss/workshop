@@ -1,0 +1,584 @@
+[0m04:17:41.766448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d058e55be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d057283980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d058d1a540>]}
+
+
+============================== 04:17:41.769629 | a412e8af-af27-4ac2-bfc2-be7f772dc609 ==============================
+[0m04:17:41.769629 [info ] [MainThread]: Running with dbt=1.10.23
+[0m04:17:41.770458 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'use_colors': 'True', 'write_json': 'True', 'empty': 'False', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'printer_width': '80', 'debug': 'False', 'invocation_command': 'dbt build --profiles-dir .', 'quiet': 'False', 'version_check': 'True', 'static_parser': 'True', 'log_path': '/home/codespace/workshop/capstone/taxi_dbt/logs', 'partial_parse': 'True', 'warn_error': 'None', 'no_print': 'None', 'log_format': 'default', 'fail_fast': 'False'}
+[0m04:17:41.770895 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m04:17:41.771470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d058d1a540>]}
+[0m04:17:42.078923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d051417530>]}
+[0m04:17:42.187689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d056272480>]}
+[0m04:17:42.191752 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m04:17:42.329631 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m04:17:42.330486 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m04:17:42.331039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d0515dc1a0>]}
+[0m04:17:44.057874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d050922210>]}
+[0m04:17:44.171660 [debug] [MainThread]: Wrote artifact WritableManifest to /home/codespace/workshop/capstone/taxi_dbt/target/manifest.json
+[0m04:17:44.173525 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/codespace/workshop/capstone/taxi_dbt/target/semantic_manifest.json
+[0m04:17:44.220490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d050902060>]}
+[0m04:17:44.221129 [info ] [MainThread]: Found 3 models, 6 data tests, 2 sources, 486 macros
+[0m04:17:44.223526 [info ] [MainThread]: 
+[0m04:17:44.224026 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m04:17:44.224522 [info ] [MainThread]: 
+[0m04:17:44.225179 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m04:17:44.230966 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_taxi'
+[0m04:17:44.269919 [debug] [ThreadPool]: Using duckdb connection "list_taxi"
+[0m04:17:44.270454 [debug] [ThreadPool]: On list_taxi: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "connection_name": "list_taxi"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"taxi"'
+    
+  
+  
+[0m04:17:44.270868 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:17:44.308778 [debug] [ThreadPool]: SQL status: OK in 0.038 seconds
+[0m04:17:44.310663 [debug] [ThreadPool]: On list_taxi: Close
+[0m04:17:44.311628 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_taxi, now create_taxi_main)
+[0m04:17:44.312373 [debug] [ThreadPool]: Creating schema "database: "taxi"
+schema: "main"
+"
+[0m04:17:44.320519 [debug] [ThreadPool]: Using duckdb connection "create_taxi_main"
+[0m04:17:44.320951 [debug] [ThreadPool]: On create_taxi_main: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "connection_name": "create_taxi_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='taxi'
+        and type='sqlite'
+    
+  
+[0m04:17:44.321419 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:17:44.322936 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m04:17:44.324191 [debug] [ThreadPool]: Using duckdb connection "create_taxi_main"
+[0m04:17:44.324591 [debug] [ThreadPool]: On create_taxi_main: BEGIN
+[0m04:17:44.325201 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m04:17:44.325593 [debug] [ThreadPool]: Using duckdb connection "create_taxi_main"
+[0m04:17:44.326000 [debug] [ThreadPool]: On create_taxi_main: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "connection_name": "create_taxi_main"} */
+
+    
+    
+        create schema if not exists "taxi"."main"
+    
+[0m04:17:44.326702 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m04:17:44.327584 [debug] [ThreadPool]: On create_taxi_main: COMMIT
+[0m04:17:44.327991 [debug] [ThreadPool]: Using duckdb connection "create_taxi_main"
+[0m04:17:44.328417 [debug] [ThreadPool]: On create_taxi_main: COMMIT
+[0m04:17:44.329005 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m04:17:44.329445 [debug] [ThreadPool]: On create_taxi_main: Close
+[0m04:17:44.330842 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_taxi_main, now list_taxi_main)
+[0m04:17:44.335916 [debug] [ThreadPool]: Using duckdb connection "list_taxi_main"
+[0m04:17:44.336352 [debug] [ThreadPool]: On list_taxi_main: BEGIN
+[0m04:17:44.336731 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:17:44.337611 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m04:17:44.338011 [debug] [ThreadPool]: Using duckdb connection "list_taxi_main"
+[0m04:17:44.338462 [debug] [ThreadPool]: On list_taxi_main: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "connection_name": "list_taxi_main"} */
+select
+      'taxi' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'taxi'
+  
+[0m04:17:44.353547 [debug] [ThreadPool]: SQL status: OK in 0.015 seconds
+[0m04:17:44.354839 [debug] [ThreadPool]: On list_taxi_main: ROLLBACK
+[0m04:17:44.355959 [debug] [ThreadPool]: Failed to rollback 'list_taxi_main'
+[0m04:17:44.356414 [debug] [ThreadPool]: On list_taxi_main: Close
+[0m04:17:44.357164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d0509e1880>]}
+[0m04:17:44.357783 [debug] [MainThread]: Using duckdb connection "master"
+[0m04:17:44.358208 [debug] [MainThread]: On master: BEGIN
+[0m04:17:44.358586 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:17:44.359524 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m04:17:44.359927 [debug] [MainThread]: On master: COMMIT
+[0m04:17:44.360367 [debug] [MainThread]: Using duckdb connection "master"
+[0m04:17:44.360737 [debug] [MainThread]: On master: COMMIT
+[0m04:17:44.361326 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m04:17:44.361723 [debug] [MainThread]: On master: Close
+[0m04:17:44.364149 [debug] [Thread-1 (]: Began running node model.taxi_dbt.stg_trips
+[0m04:17:44.364617 [debug] [Thread-2 (]: Began running node model.taxi_dbt.stg_zones
+[0m04:17:44.365316 [info ] [Thread-1 (]: 1 of 9 START sql view model main.stg_trips ..................................... [RUN]
+[0m04:17:44.366017 [info ] [Thread-2 (]: 2 of 9 START sql view model main.stg_zones ..................................... [RUN]
+[0m04:17:44.366687 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_taxi_main, now model.taxi_dbt.stg_trips)
+[0m04:17:44.367811 [debug] [Thread-1 (]: Began compiling node model.taxi_dbt.stg_trips
+[0m04:17:44.367307 [debug] [Thread-2 (]: Acquiring new duckdb connection 'model.taxi_dbt.stg_zones'
+[0m04:17:44.376326 [debug] [Thread-1 (]: Writing injected SQL for node "model.taxi_dbt.stg_trips"
+[0m04:17:44.376837 [debug] [Thread-2 (]: Began compiling node model.taxi_dbt.stg_zones
+[0m04:17:44.379492 [debug] [Thread-2 (]: Writing injected SQL for node "model.taxi_dbt.stg_zones"
+[0m04:17:44.380465 [debug] [Thread-2 (]: Began executing node model.taxi_dbt.stg_zones
+[0m04:17:44.397569 [debug] [Thread-1 (]: Began executing node model.taxi_dbt.stg_trips
+[0m04:17:44.439653 [debug] [Thread-2 (]: Writing runtime sql for node "model.taxi_dbt.stg_zones"
+[0m04:17:44.441230 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.stg_zones"
+[0m04:17:44.441888 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: BEGIN
+[0m04:17:44.444264 [debug] [Thread-1 (]: Writing runtime sql for node "model.taxi_dbt.stg_trips"
+[0m04:17:44.444732 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m04:17:44.445490 [debug] [Thread-1 (]: Using duckdb connection "model.taxi_dbt.stg_trips"
+[0m04:17:44.446144 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: BEGIN
+[0m04:17:44.446681 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:17:44.447591 [debug] [Thread-2 (]: SQL status: OK in 0.003 seconds
+[0m04:17:44.448147 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.stg_zones"
+[0m04:17:44.448683 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_zones"} */
+
+  
+  create view "taxi"."main"."stg_zones__dbt_tmp" as (
+    -- One row per taxi zone
+select
+    LocationID    as zone_id,
+    Borough       as borough,
+    Zone          as zone_name,
+    service_zone
+from "taxi"."raw"."zones"
+  );
+
+[0m04:17:44.449208 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m04:17:44.450273 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m04:17:44.450695 [debug] [Thread-1 (]: Using duckdb connection "model.taxi_dbt.stg_trips"
+[0m04:17:44.456408 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.stg_zones"
+[0m04:17:44.457530 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_zones"} */
+alter view "taxi"."main"."stg_zones__dbt_tmp" rename to "stg_zones"
+[0m04:17:44.456967 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_trips"} */
+
+  
+  create view "taxi"."main"."stg_trips__dbt_tmp" as (
+    -- One clean row per taxi trip.
+-- Every filter below removes rows that can't be real trips: write down
+-- how many rows each rule removes for your data-quality slide!
+with source as (
+
+    select * from "taxi"."raw"."trips"
+
+),
+
+renamed as (
+
+    select
+        tpep_pickup_datetime                       as pickup_at,
+        tpep_dropoff_datetime                      as dropoff_at,
+        PULocationID                               as pickup_zone_id,
+        DOLocationID                               as dropoff_zone_id,
+        passenger_count,
+        trip_distance                              as distance_miles,
+        payment_type                               as payment_type_id,
+        fare_amount,
+        tip_amount,
+        total_amount,
+        date_diff('second', tpep_pickup_datetime, tpep_dropoff_datetime) / 60.0
+                                                   as duration_minutes
+    from source
+
+)
+
+select *
+from renamed
+where pickup_at >= timestamp '2024-01-01'          -- inside the months we downloaded
+  and pickup_at <  timestamp '2024-04-01'          -- (change this if you add months)
+  and distance_miles > 0 and distance_miles < 100   -- no zero or impossible distances
+  and fare_amount > 0 and total_amount > 0          -- no refunds / negative amounts
+  and duration_minutes between 1 and 180            -- 1 minute to 3 hours
+  );
+
+[0m04:17:44.458518 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m04:17:44.471002 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: COMMIT
+[0m04:17:44.471737 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.stg_zones"
+[0m04:17:44.472474 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: COMMIT
+[0m04:17:44.476508 [debug] [Thread-1 (]: SQL status: OK in 0.018 seconds
+[0m04:17:44.480654 [debug] [Thread-1 (]: Using duckdb connection "model.taxi_dbt.stg_trips"
+[0m04:17:44.481181 [debug] [Thread-2 (]: SQL status: OK in 0.008 seconds
+[0m04:17:44.481611 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_trips"} */
+alter view "taxi"."main"."stg_trips__dbt_tmp" rename to "stg_trips"
+[0m04:17:44.487730 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m04:17:44.489738 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: COMMIT
+[0m04:17:44.486938 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.stg_zones"
+[0m04:17:44.491182 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_zones"} */
+
+      drop view if exists "taxi"."main"."stg_zones__dbt_backup" cascade
+    
+[0m04:17:44.492047 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m04:17:44.490603 [debug] [Thread-1 (]: Using duckdb connection "model.taxi_dbt.stg_trips"
+[0m04:17:44.495771 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: COMMIT
+[0m04:17:44.495181 [debug] [Thread-2 (]: On model.taxi_dbt.stg_zones: Close
+[0m04:17:44.498309 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d050ac3b00>]}
+[0m04:17:44.499435 [info ] [Thread-2 (]: 2 of 9 OK created sql view model main.stg_zones ................................ [[32mOK[0m in 0.13s]
+[0m04:17:44.500453 [debug] [Thread-2 (]: Finished running node model.taxi_dbt.stg_zones
+[0m04:17:44.501374 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m04:17:44.504376 [debug] [Thread-1 (]: Using duckdb connection "model.taxi_dbt.stg_trips"
+[0m04:17:44.505317 [debug] [Thread-2 (]: Began running node test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec
+[0m04:17:44.505842 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.stg_trips"} */
+
+      drop view if exists "taxi"."main"."stg_trips__dbt_backup" cascade
+    
+[0m04:17:44.509022 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m04:17:44.510804 [debug] [Thread-1 (]: On model.taxi_dbt.stg_trips: Close
+[0m04:17:44.508171 [info ] [Thread-2 (]: 3 of 9 START test not_null_stg_zones_zone_id ................................... [RUN]
+[0m04:17:44.511599 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d0500c4110>]}
+[0m04:17:44.512175 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.taxi_dbt.stg_zones, now test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec)
+[0m04:17:44.512890 [info ] [Thread-1 (]: 1 of 9 OK created sql view model main.stg_trips ................................ [[32mOK[0m in 0.14s]
+[0m04:17:44.513506 [debug] [Thread-2 (]: Began compiling node test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec
+[0m04:17:44.514199 [debug] [Thread-1 (]: Finished running node model.taxi_dbt.stg_trips
+[0m04:17:44.523850 [debug] [Thread-2 (]: Writing injected SQL for node "test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec"
+[0m04:17:44.524440 [debug] [Thread-1 (]: Began running node test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82
+[0m04:17:44.525894 [debug] [Thread-2 (]: Began executing node test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec
+[0m04:17:44.525355 [info ] [Thread-1 (]: 4 of 9 START test unique_stg_zones_zone_id ..................................... [RUN]
+[0m04:17:44.540563 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.taxi_dbt.stg_trips, now test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82)
+[0m04:17:44.541464 [debug] [Thread-1 (]: Began compiling node test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82
+[0m04:17:44.557543 [debug] [Thread-1 (]: Writing injected SQL for node "test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82"
+[0m04:17:44.565593 [debug] [Thread-1 (]: Began executing node test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82
+[0m04:17:44.572833 [debug] [Thread-2 (]: Writing runtime sql for node "test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec"
+[0m04:17:44.575198 [debug] [Thread-1 (]: Writing runtime sql for node "test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82"
+[0m04:17:44.576352 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec"
+[0m04:17:44.577340 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec: BEGIN
+[0m04:17:44.578682 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m04:17:44.577984 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82"
+[0m04:17:44.579601 [debug] [Thread-1 (]: On test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82: BEGIN
+[0m04:17:44.580866 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:17:44.582982 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m04:17:44.583777 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec"
+[0m04:17:44.584478 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select zone_id
+from "taxi"."main"."stg_zones"
+where zone_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:44.585493 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m04:17:44.586190 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82"
+[0m04:17:44.586743 [debug] [Thread-1 (]: On test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    zone_id as unique_field,
+    count(*) as n_records
+
+from "taxi"."main"."stg_zones"
+where zone_id is not null
+group by zone_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:44.589585 [debug] [Thread-2 (]: SQL status: OK in 0.003 seconds
+[0m04:17:44.595835 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec: ROLLBACK
+[0m04:17:44.599260 [debug] [Thread-2 (]: Failed to rollback 'test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec'
+[0m04:17:44.600599 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec: Close
+[0m04:17:44.602025 [info ] [Thread-2 (]: 3 of 9 PASS not_null_stg_zones_zone_id ......................................... [[32mPASS[0m in 0.09s]
+[0m04:17:44.602978 [debug] [Thread-2 (]: Finished running node test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec
+[0m04:17:44.604657 [debug] [Thread-2 (]: Began running node test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222
+[0m04:17:44.607273 [info ] [Thread-2 (]: 5 of 9 START test not_null_stg_trips_pickup_at ................................. [RUN]
+[0m04:17:44.608006 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.taxi_dbt.not_null_stg_zones_zone_id.fffc4bdeec, now test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222)
+[0m04:17:44.610323 [debug] [Thread-2 (]: Began compiling node test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222
+[0m04:17:44.619399 [debug] [Thread-2 (]: Writing injected SQL for node "test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222"
+[0m04:17:44.620642 [debug] [Thread-2 (]: Began executing node test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222
+[0m04:17:44.619917 [debug] [Thread-1 (]: SQL status: OK in 0.031 seconds
+[0m04:17:44.623025 [debug] [Thread-2 (]: Writing runtime sql for node "test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222"
+[0m04:17:44.623921 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222"
+[0m04:17:44.624462 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222: BEGIN
+[0m04:17:44.626373 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m04:17:44.625861 [debug] [Thread-1 (]: On test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82: ROLLBACK
+[0m04:17:44.627656 [debug] [Thread-1 (]: Failed to rollback 'test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82'
+[0m04:17:44.628219 [debug] [Thread-1 (]: On test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82: Close
+[0m04:17:44.629431 [info ] [Thread-1 (]: 4 of 9 PASS unique_stg_zones_zone_id ........................................... [[32mPASS[0m in 0.09s]
+[0m04:17:44.630402 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m04:17:44.631279 [debug] [Thread-1 (]: Finished running node test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82
+[0m04:17:44.631802 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222"
+[0m04:17:44.632365 [debug] [Thread-1 (]: Began running node test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9
+[0m04:17:44.632951 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select pickup_at
+from "taxi"."main"."stg_trips"
+where pickup_at is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:44.633510 [info ] [Thread-1 (]: 6 of 9 START test relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_  [RUN]
+[0m04:17:44.634260 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.taxi_dbt.unique_stg_zones_zone_id.aec651ab82, now test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9)
+[0m04:17:44.634927 [debug] [Thread-1 (]: Began compiling node test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9
+[0m04:17:44.642827 [debug] [Thread-1 (]: Writing injected SQL for node "test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9"
+[0m04:17:44.643755 [debug] [Thread-1 (]: Began executing node test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9
+[0m04:17:44.646457 [debug] [Thread-1 (]: Writing runtime sql for node "test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9"
+[0m04:17:44.647045 [debug] [Thread-2 (]: SQL status: OK in 0.013 seconds
+[0m04:17:44.648658 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222: ROLLBACK
+[0m04:17:44.649690 [debug] [Thread-2 (]: Failed to rollback 'test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222'
+[0m04:17:44.650183 [debug] [Thread-2 (]: On test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222: Close
+[0m04:17:44.650843 [info ] [Thread-2 (]: 5 of 9 PASS not_null_stg_trips_pickup_at ....................................... [[32mPASS[0m in 0.04s]
+[0m04:17:44.651494 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9"
+[0m04:17:44.652202 [debug] [Thread-2 (]: Finished running node test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222
+[0m04:17:44.652691 [debug] [Thread-1 (]: On test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9: BEGIN
+[0m04:17:44.653438 [debug] [Thread-2 (]: Began running node model.taxi_dbt.trips_by_month
+[0m04:17:44.653898 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:17:44.654535 [info ] [Thread-2 (]: 7 of 9 START sql table model main.trips_by_month ............................... [RUN]
+[0m04:17:44.655318 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.taxi_dbt.not_null_stg_trips_pickup_at.aeb0edf222, now model.taxi_dbt.trips_by_month)
+[0m04:17:44.655765 [debug] [Thread-2 (]: Began compiling node model.taxi_dbt.trips_by_month
+[0m04:17:44.658435 [debug] [Thread-2 (]: Writing injected SQL for node "model.taxi_dbt.trips_by_month"
+[0m04:17:44.660569 [debug] [Thread-2 (]: Began executing node model.taxi_dbt.trips_by_month
+[0m04:17:44.659285 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m04:17:44.672125 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9"
+[0m04:17:44.679331 [debug] [Thread-1 (]: On test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select pickup_zone_id as from_field
+    from "taxi"."main"."stg_trips"
+    where pickup_zone_id is not null
+),
+
+parent as (
+    select zone_id as to_field
+    from "taxi"."main"."stg_zones"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:44.710680 [debug] [Thread-2 (]: Writing runtime sql for node "model.taxi_dbt.trips_by_month"
+[0m04:17:44.712162 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.trips_by_month"
+[0m04:17:44.713205 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: BEGIN
+[0m04:17:44.713886 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m04:17:44.717369 [debug] [Thread-2 (]: SQL status: OK in 0.003 seconds
+[0m04:17:44.719229 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.trips_by_month"
+[0m04:17:44.719845 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.trips_by_month"} */
+
+  
+    
+    
+
+    create  table
+      "taxi"."main"."trips_by_month__dbt_tmp"
+  
+    as (
+      -- EXAMPLE report model - use it as a pattern for your own.
+-- Answers question 1: trips and revenue per month.
+select
+    strftime(pickup_at, '%Y-%m')          as pickup_month,
+    count(*)                              as trips,
+    round(sum(total_amount), 2)           as revenue,
+    round(avg(distance_miles), 2)         as avg_distance_miles
+from "taxi"."main"."stg_trips"
+group by pickup_month
+order by pickup_month
+    );
+  
+  
+[0m04:17:46.047404 [debug] [Thread-1 (]: SQL status: OK in 1.367 seconds
+[0m04:17:46.052109 [debug] [Thread-1 (]: On test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9: ROLLBACK
+[0m04:17:46.053645 [debug] [Thread-1 (]: Failed to rollback 'test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9'
+[0m04:17:46.056282 [debug] [Thread-1 (]: On test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9: Close
+[0m04:17:46.057268 [info ] [Thread-1 (]: 6 of 9 PASS relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_ .... [[32mPASS[0m in 1.42s]
+[0m04:17:46.058935 [debug] [Thread-1 (]: Finished running node test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9
+[0m04:17:46.319187 [debug] [Thread-2 (]: SQL status: OK in 1.598 seconds
+[0m04:17:46.323699 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.trips_by_month"
+[0m04:17:46.324959 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.trips_by_month"} */
+alter table "taxi"."main"."trips_by_month__dbt_tmp" rename to "trips_by_month"
+[0m04:17:46.326305 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m04:17:46.333058 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: COMMIT
+[0m04:17:46.333746 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.trips_by_month"
+[0m04:17:46.334389 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: COMMIT
+[0m04:17:46.338990 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m04:17:46.341572 [debug] [Thread-2 (]: Using duckdb connection "model.taxi_dbt.trips_by_month"
+[0m04:17:46.342044 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "model.taxi_dbt.trips_by_month"} */
+
+      drop table if exists "taxi"."main"."trips_by_month__dbt_backup" cascade
+    
+[0m04:17:46.342816 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m04:17:46.344155 [debug] [Thread-2 (]: On model.taxi_dbt.trips_by_month: Close
+[0m04:17:46.344783 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a412e8af-af27-4ac2-bfc2-be7f772dc609', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d050749100>]}
+[0m04:17:46.345500 [info ] [Thread-2 (]: 7 of 9 OK created sql table model main.trips_by_month .......................... [[32mOK[0m in 1.69s]
+[0m04:17:46.346260 [debug] [Thread-2 (]: Finished running node model.taxi_dbt.trips_by_month
+[0m04:17:46.347265 [debug] [Thread-1 (]: Began running node test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d
+[0m04:17:46.347694 [debug] [Thread-2 (]: Began running node test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33
+[0m04:17:46.348220 [info ] [Thread-1 (]: 8 of 9 START test not_null_trips_by_month_pickup_month ......................... [RUN]
+[0m04:17:46.348791 [info ] [Thread-2 (]: 9 of 9 START test unique_trips_by_month_pickup_month ........................... [RUN]
+[0m04:17:46.349462 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.taxi_dbt.relationships_stg_trips_pickup_zone_id__zone_id__ref_stg_zones_.8b887079b9, now test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d)
+[0m04:17:46.349993 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.taxi_dbt.trips_by_month, now test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33)
+[0m04:17:46.350544 [debug] [Thread-1 (]: Began compiling node test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d
+[0m04:17:46.351025 [debug] [Thread-2 (]: Began compiling node test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33
+[0m04:17:46.356543 [debug] [Thread-1 (]: Writing injected SQL for node "test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d"
+[0m04:17:46.361854 [debug] [Thread-2 (]: Writing injected SQL for node "test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33"
+[0m04:17:46.362736 [debug] [Thread-1 (]: Began executing node test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d
+[0m04:17:46.363261 [debug] [Thread-2 (]: Began executing node test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33
+[0m04:17:46.445259 [debug] [Thread-1 (]: Writing runtime sql for node "test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d"
+[0m04:17:46.447541 [debug] [Thread-2 (]: Writing runtime sql for node "test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33"
+[0m04:17:46.448431 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d"
+[0m04:17:46.448972 [debug] [Thread-1 (]: On test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d: BEGIN
+[0m04:17:46.450302 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:17:46.451700 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m04:17:46.449532 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33"
+[0m04:17:46.452343 [debug] [Thread-1 (]: Using duckdb connection "test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d"
+[0m04:17:46.452837 [debug] [Thread-2 (]: On test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33: BEGIN
+[0m04:17:46.453410 [debug] [Thread-1 (]: On test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select pickup_month
+from "taxi"."main"."trips_by_month"
+where pickup_month is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:46.453900 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m04:17:46.455207 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m04:17:46.455894 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m04:17:46.456427 [debug] [Thread-2 (]: Using duckdb connection "test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33"
+[0m04:17:46.457000 [debug] [Thread-2 (]: On test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "taxi_dbt", "target_name": "dev", "node_id": "test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    pickup_month as unique_field,
+    count(*) as n_records
+
+from "taxi"."main"."trips_by_month"
+where pickup_month is not null
+group by pickup_month
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m04:17:46.458487 [debug] [Thread-1 (]: On test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d: ROLLBACK
+[0m04:17:46.459982 [debug] [Thread-1 (]: Failed to rollback 'test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d'
+[0m04:17:46.460821 [debug] [Thread-1 (]: On test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d: Close
+[0m04:17:46.461856 [info ] [Thread-1 (]: 8 of 9 PASS not_null_trips_by_month_pickup_month ............................... [[32mPASS[0m in 0.11s]
+[0m04:17:46.463133 [debug] [Thread-1 (]: Finished running node test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d
+[0m04:17:46.463839 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m04:17:46.465407 [debug] [Thread-2 (]: On test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33: ROLLBACK
+[0m04:17:46.466351 [debug] [Thread-2 (]: Failed to rollback 'test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33'
+[0m04:17:46.466805 [debug] [Thread-2 (]: On test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33: Close
+[0m04:17:46.467490 [info ] [Thread-2 (]: 9 of 9 PASS unique_trips_by_month_pickup_month ................................. [[32mPASS[0m in 0.12s]
+[0m04:17:46.468291 [debug] [Thread-2 (]: Finished running node test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33
+[0m04:17:46.471397 [debug] [MainThread]: Using duckdb connection "master"
+[0m04:17:46.471809 [debug] [MainThread]: On master: BEGIN
+[0m04:17:46.472335 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:17:46.473347 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m04:17:46.473883 [debug] [MainThread]: On master: COMMIT
+[0m04:17:46.474724 [debug] [MainThread]: Using duckdb connection "master"
+[0m04:17:46.475357 [debug] [MainThread]: On master: COMMIT
+[0m04:17:46.476157 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m04:17:46.476596 [debug] [MainThread]: On master: Close
+[0m04:17:46.477062 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:17:46.477481 [debug] [MainThread]: Connection 'test.taxi_dbt.not_null_trips_by_month_pickup_month.6d020c775d' was properly closed.
+[0m04:17:46.477847 [debug] [MainThread]: Connection 'test.taxi_dbt.unique_trips_by_month_pickup_month.52e3b61b33' was properly closed.
+[0m04:17:46.478335 [info ] [MainThread]: 
+[0m04:17:46.478818 [info ] [MainThread]: Finished running 1 table model, 6 data tests, 2 view models in 0 hours 0 minutes and 2.25 seconds (2.25s).
+[0m04:17:46.480543 [debug] [MainThread]: Command end result
+[0m04:17:46.507981 [debug] [MainThread]: Wrote artifact WritableManifest to /home/codespace/workshop/capstone/taxi_dbt/target/manifest.json
+[0m04:17:46.510210 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/codespace/workshop/capstone/taxi_dbt/target/semantic_manifest.json
+[0m04:17:46.516271 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/codespace/workshop/capstone/taxi_dbt/target/run_results.json
+[0m04:17:46.516668 [info ] [MainThread]: 
+[0m04:17:46.517208 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m04:17:46.517663 [info ] [MainThread]: 
+[0m04:17:46.518187 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=9
+[0m04:17:46.519254 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": true, "command_wall_clock_time": 4.813067, "process_in_blocks": "310560", "process_kernel_time": 0.571584, "process_mem_max_rss": "345052", "process_out_blocks": "3496", "process_user_time": 5.980485}
+[0m04:17:46.519794 [debug] [MainThread]: Command `dbt build` succeeded at 04:17:46.519693 after 4.81 seconds
+[0m04:17:46.520302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d058d1a540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d056ef8a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d05624f830>]}
+[0m04:17:46.520757 [debug] [MainThread]: Flushing usage events
+[0m04:17:47.576884 [debug] [MainThread]: An error was encountered while trying to flush usage events

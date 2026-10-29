@@ -1,0 +1,9 @@
+taxi_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/taxi.duckdb
+      threads: 2
+      settings:
+        TimeZone: UTC

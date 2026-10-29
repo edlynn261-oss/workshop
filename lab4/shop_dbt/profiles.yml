@@ -1,0 +1,9 @@
+shop_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/shop.duckdb   # the same file load_raw.py writes to
+      threads: 1
+      settings:
+        TimeZone: UTC                  # same results on every computer

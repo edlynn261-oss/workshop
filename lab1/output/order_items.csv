@@ -1,0 +1,433 @@
+order_id,order_date,order_month,status,payment_method,customer_id,customer_name,city,sku,product_name,category,quantity,unit_price,line_total
+ORD-1001,2026-01-01 01:59:00+08:00,2026-01,shipped,fpx,C010,Kavitha Yusof,Penang,P010,Cotton T-Shirt,Fashion,3,39.9,119.7
+ORD-1002,2026-01-02 05:17:00+08:00,2026-01,shipped,card,C002,Wei Jie Hassan,Melaka,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1003,2026-01-02 11:09:00+08:00,2026-01,paid,ewallet,C053,Mei Ling Abdullah,Johor Bahru,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1003,2026-01-02 11:09:00+08:00,2026-01,paid,ewallet,C053,Mei Ling Abdullah,Johor Bahru,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1004,2026-01-03 19:16:00+08:00,2026-01,paid,ewallet,C020,Aisyah Nair,Unknown,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1005,2026-01-04 13:55:00+08:00,2026-01,shipped,card,C002,Wei Jie Hassan,Melaka,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1006,2026-01-04 17:58:00+08:00,2026-01,paid,fpx,C028,Ravi Chong,Shah Alam,P002,USB-C Charger,Electronics,3,79.0,237.0
+ORD-1006,2026-01-04 17:58:00+08:00,2026-01,paid,fpx,C028,Ravi Chong,Shah Alam,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1006,2026-01-04 17:58:00+08:00,2026-01,paid,fpx,C028,Ravi Chong,Shah Alam,P008,Python for Beginners (Book),Books,2,72.0,144.0
+ORD-1007,2026-01-04 19:54:00+08:00,2026-01,paid,cod,C013,Liyana Ismail,Kuala Lumpur,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1007,2026-01-04 19:54:00+08:00,2026-01,paid,cod,C013,Liyana Ismail,Kuala Lumpur,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1008,2026-01-04 23:58:00+08:00,2026-01,shipped,fpx,C035,Irfan Nair,Kuala Lumpur,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1009,2026-01-06 03:33:00+08:00,2026-01,shipped,cod,C042,Siti Lee,Kuala Lumpur,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1009,2026-01-06 03:33:00+08:00,2026-01,shipped,cod,C042,Siti Lee,Kuala Lumpur,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1010,2026-01-06 04:15:00+08:00,2026-01,paid,card,C041,Nurul Yusof,Melaka,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1011,2026-01-07 19:52:00+08:00,2026-01,paid,ewallet,C037,Arjun Lee,Unknown,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1011,2026-01-07 19:52:00+08:00,2026-01,paid,ewallet,C037,Arjun Lee,Unknown,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1011,2026-01-07 19:52:00+08:00,2026-01,paid,ewallet,C037,Arjun Lee,Unknown,P005,Ceramic Mug,Home,3,24.9,74.7
+ORD-1013,2026-01-09 03:02:00+08:00,2026-01,shipped,card,C010,Kavitha Yusof,Penang,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1013,2026-01-09 03:02:00+08:00,2026-01,shipped,card,C010,Kavitha Yusof,Penang,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1014,2026-01-09 06:18:00+08:00,2026-01,shipped,fpx,C056,Siti Nair,Ipoh,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1014,2026-01-09 06:18:00+08:00,2026-01,shipped,fpx,C056,Siti Nair,Ipoh,P004,Laptop Stand,Electronics,3,89.5,268.5
+ORD-1014,2026-01-09 06:18:00+08:00,2026-01,shipped,fpx,C056,Siti Nair,Ipoh,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1015,2026-01-10 07:06:00+08:00,2026-01,shipped,card,C005,Aina Hassan,Penang,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1015,2026-01-10 07:06:00+08:00,2026-01,shipped,card,C005,Aina Hassan,Penang,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1016,2026-01-10 08:43:00+08:00,2026-01,paid,cod,C017,Arjun Abdullah,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1016,2026-01-10 08:43:00+08:00,2026-01,paid,cod,C017,Arjun Abdullah,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1016,2026-01-10 08:43:00+08:00,2026-01,paid,cod,C017,Arjun Abdullah,Shah Alam,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1017,2026-01-10 16:32:00+08:00,2026-01,paid,cod,C036,Amir Wong,Shah Alam,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1017,2026-01-10 16:32:00+08:00,2026-01,paid,cod,C036,Amir Wong,Shah Alam,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1018,2026-01-11 18:23:00+08:00,2026-01,shipped,cod,C005,Aina Hassan,Penang,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1018,2026-01-11 18:23:00+08:00,2026-01,shipped,cod,C005,Aina Hassan,Penang,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1018,2026-01-11 18:23:00+08:00,2026-01,shipped,cod,C005,Aina Hassan,Penang,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1019,2026-01-12 00:00:00+08:00,2026-01,paid,ewallet,C038,Hui Min Lim,Melaka,P012,Canvas Tote Bag,Fashion,4,29.9,119.6
+ORD-1021,2026-01-12 23:10:00+08:00,2026-01,paid,fpx,C057,Kavitha Rahman,Penang,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1022,2026-01-13 03:54:00+08:00,2026-01,shipped,fpx,C029,Kavitha Abdullah,Unknown,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1023,2026-01-13 07:04:00+08:00,2026-01,shipped,ewallet,C028,Ravi Chong,Shah Alam,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1024,2026-01-13 13:37:00+08:00,2026-01,paid,ewallet,C028,Ravi Chong,Shah Alam,P008,Python for Beginners (Book),Books,4,72.0,288.0
+ORD-1025,2026-01-13 15:02:00+08:00,2026-01,shipped,cod,C058,Kavitha Tan,Kuala Lumpur,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1026,2026-01-14 13:31:00+08:00,2026-01,shipped,ewallet,C028,Ravi Chong,Shah Alam,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1027,2026-01-15 03:06:00+08:00,2026-01,paid,card,C012,Amir Lee,Johor Bahru,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1028,2026-01-15 08:24:00+08:00,2026-01,paid,ewallet,C003,Liyana Nair,Shah Alam,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1028,2026-01-15 08:24:00+08:00,2026-01,paid,ewallet,C003,Liyana Nair,Shah Alam,P008,Python for Beginners (Book),Books,2,72.0,144.0
+ORD-1030,2026-01-16 18:20:00+08:00,2026-01,paid,fpx,C006,Arjun Ismail,Penang,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1031,2026-01-17 04:16:00+08:00,2026-01,shipped,fpx,C047,Ravi Ismail,Kuching,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1032,2026-01-17 05:18:00+08:00,2026-01,paid,ewallet,C010,Kavitha Yusof,Penang,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1033,2026-01-17 06:28:00+08:00,2026-01,shipped,cod,C018,Kavitha Nair,Kota Kinabalu,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1033,2026-01-17 06:28:00+08:00,2026-01,shipped,cod,C018,Kavitha Nair,Kota Kinabalu,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1034,2026-01-18 01:52:00+08:00,2026-01,shipped,card,C011,Farah Tan,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1035,2026-01-18 02:07:00+08:00,2026-01,shipped,fpx,C039,Zul Tan,Kota Kinabalu,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1035,2026-01-18 02:07:00+08:00,2026-01,shipped,fpx,C039,Zul Tan,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1035,2026-01-18 02:07:00+08:00,2026-01,shipped,fpx,C039,Zul Tan,Kota Kinabalu,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1036,2026-01-18 05:09:00+08:00,2026-01,shipped,ewallet,C027,Ravi Abdullah,Kota Kinabalu,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1037,2026-01-18 09:58:00+08:00,2026-01,paid,card,C008,Farah Kumar,Unknown,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1038,2026-01-20 05:37:00+08:00,2026-01,paid,ewallet,C006,Arjun Ismail,Penang,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1038,2026-01-20 05:37:00+08:00,2026-01,paid,ewallet,C006,Arjun Ismail,Penang,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1039,2026-01-21 12:47:00+08:00,2026-01,paid,cod,C024,Siti Lee,Ipoh,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1040,2026-01-22 06:20:00+08:00,2026-01,paid,card,C053,Mei Ling Abdullah,Johor Bahru,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1040,2026-01-22 06:20:00+08:00,2026-01,paid,card,C053,Mei Ling Abdullah,Johor Bahru,P005,Ceramic Mug,Home,4,24.9,99.6
+ORD-1042,2026-01-23 19:02:00+08:00,2026-01,shipped,cod,C057,Kavitha Rahman,Penang,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1043,2026-01-23 23:48:00+08:00,2026-01,shipped,fpx,C050,Siti Nair,Ipoh,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1045,2026-01-27 05:06:00+08:00,2026-01,shipped,ewallet,C044,Liyana Nair,Unknown,P004,Laptop Stand,Electronics,2,89.5,179.0
+ORD-1045,2026-01-27 05:06:00+08:00,2026-01,shipped,ewallet,C044,Liyana Nair,Unknown,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1046,2026-01-28 09:19:00+08:00,2026-01,paid,ewallet,C024,Siti Lee,Ipoh,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1046,2026-01-28 09:19:00+08:00,2026-01,paid,ewallet,C024,Siti Lee,Ipoh,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1047,2026-01-28 21:29:00+08:00,2026-01,shipped,fpx,C026,Zul Yusof,Kota Kinabalu,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1048,2026-01-29 14:31:00+08:00,2026-01,shipped,card,C012,Amir Lee,Johor Bahru,P008,Python for Beginners (Book),Books,4,72.0,288.0
+ORD-1050,2026-01-31 15:20:00+08:00,2026-01,shipped,cod,C038,Hui Min Lim,Melaka,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1051,2026-01-31 15:52:00+08:00,2026-01,shipped,cod,C020,Aisyah Nair,Unknown,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1051,2026-01-31 15:52:00+08:00,2026-01,shipped,cod,C020,Aisyah Nair,Unknown,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1051,2026-01-31 15:52:00+08:00,2026-01,shipped,cod,C020,Aisyah Nair,Unknown,P012,Canvas Tote Bag,Fashion,4,29.9,119.6
+ORD-1052,2026-02-01 02:28:00+08:00,2026-02,paid,ewallet,C003,Liyana Nair,Shah Alam,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1053,2026-02-01 08:00:00+08:00,2026-02,shipped,fpx,C042,Siti Lee,Kuala Lumpur,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1054,2026-02-01 23:19:00+08:00,2026-02,shipped,fpx,C029,Kavitha Abdullah,Unknown,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1054,2026-02-01 23:19:00+08:00,2026-02,shipped,fpx,C029,Kavitha Abdullah,Unknown,P005,Ceramic Mug,Home,3,24.9,74.7
+ORD-1055,2026-02-02 01:14:00+08:00,2026-02,paid,fpx,C040,Zul Wong,Penang,P003,Bluetooth Earbuds,Electronics,4,159.0,636.0
+ORD-1055,2026-02-02 01:14:00+08:00,2026-02,paid,fpx,C040,Zul Wong,Penang,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1056,2026-02-02 05:09:00+08:00,2026-02,shipped,ewallet,C053,Mei Ling Abdullah,Johor Bahru,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1057,2026-02-02 20:30:00+08:00,2026-02,paid,ewallet,C017,Arjun Abdullah,Shah Alam,P007,Bath Towel Set,Home,3,55.0,165.0
+ORD-1058,2026-02-02 21:05:00+08:00,2026-02,shipped,card,C022,Hafiz Yusof,Penang,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1058,2026-02-02 21:05:00+08:00,2026-02,shipped,card,C022,Hafiz Yusof,Penang,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1059,2026-02-02 22:55:00+08:00,2026-02,shipped,cod,C037,Arjun Lee,Unknown,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1060,2026-02-02 23:30:00+08:00,2026-02,paid,card,C060,Aina Rahman,Unknown,P009,Data Engineering Handbook (Book),Books,4,129.0,516.0
+ORD-1061,2026-02-04 21:31:00+08:00,2026-02,paid,ewallet,C011,Farah Tan,Kota Kinabalu,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1062,2026-02-06 18:49:00+08:00,2026-02,paid,cod,C044,Liyana Nair,Unknown,P011,Running Shoes,Fashion,4,219.0,876.0
+ORD-1064,2026-02-07 10:58:00+08:00,2026-02,paid,fpx,C026,Zul Yusof,Kota Kinabalu,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1065,2026-02-07 12:45:00+08:00,2026-02,paid,card,C057,Kavitha Rahman,Penang,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1066,2026-02-08 02:06:00+08:00,2026-02,paid,card,C010,Kavitha Yusof,Penang,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1066,2026-02-08 02:06:00+08:00,2026-02,paid,card,C010,Kavitha Yusof,Penang,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1067,2026-02-08 11:05:00+08:00,2026-02,paid,cod,C035,Irfan Nair,Kuala Lumpur,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1068,2026-02-09 00:32:00+08:00,2026-02,paid,ewallet,C032,Aisyah Lee,Unknown,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1069,2026-02-09 03:55:00+08:00,2026-02,paid,ewallet,C036,Amir Wong,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1069,2026-02-09 03:55:00+08:00,2026-02,paid,ewallet,C036,Amir Wong,Shah Alam,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1070,2026-02-09 07:06:00+08:00,2026-02,paid,card,C031,Hafiz Lim,Shah Alam,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1070,2026-02-09 07:06:00+08:00,2026-02,paid,card,C031,Hafiz Lim,Shah Alam,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1071,2026-02-09 21:55:00+08:00,2026-02,shipped,card,C039,Zul Tan,Kota Kinabalu,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1072,2026-02-10 23:43:00+08:00,2026-02,paid,card,C025,Arjun Chong,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1072,2026-02-10 23:43:00+08:00,2026-02,paid,card,C025,Arjun Chong,Shah Alam,P009,Data Engineering Handbook (Book),Books,4,129.0,516.0
+ORD-1073,2026-02-11 08:12:00+08:00,2026-02,paid,fpx,C014,Jason Wong,Shah Alam,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1075,2026-02-12 01:22:00+08:00,2026-02,paid,fpx,C059,Jason Chong,Kuching,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1075,2026-02-12 01:22:00+08:00,2026-02,paid,fpx,C059,Jason Chong,Kuching,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1075,2026-02-12 01:22:00+08:00,2026-02,paid,fpx,C059,Jason Chong,Kuching,P011,Running Shoes,Fashion,4,219.0,876.0
+ORD-1076,2026-02-13 09:43:00+08:00,2026-02,paid,cod,C038,Hui Min Lim,Melaka,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1076,2026-02-13 09:43:00+08:00,2026-02,paid,cod,C038,Hui Min Lim,Melaka,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1077,2026-02-13 21:06:00+08:00,2026-02,paid,card,C037,Arjun Lee,Unknown,P005,Ceramic Mug,Home,3,24.9,74.7
+ORD-1077,2026-02-13 21:06:00+08:00,2026-02,paid,card,C037,Arjun Lee,Unknown,P006,Desk Lamp,Home,4,65.0,260.0
+ORD-1078,2026-02-14 10:45:00+08:00,2026-02,paid,ewallet,C025,Arjun Chong,Shah Alam,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1079,2026-02-15 18:17:00+08:00,2026-02,paid,card,C059,Jason Chong,Kuching,P008,Python for Beginners (Book),Books,4,72.0,288.0
+ORD-1079,2026-02-15 18:17:00+08:00,2026-02,paid,card,C059,Jason Chong,Kuching,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1080,2026-02-16 04:28:00+08:00,2026-02,paid,fpx,C012,Amir Lee,Johor Bahru,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1081,2026-02-16 09:59:00+08:00,2026-02,shipped,cod,C017,Arjun Abdullah,Shah Alam,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1082,2026-02-16 11:38:00+08:00,2026-02,shipped,cod,C036,Amir Wong,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1083,2026-02-17 01:05:00+08:00,2026-02,paid,ewallet,C049,Liyana Hassan,Shah Alam,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1083,2026-02-17 01:05:00+08:00,2026-02,paid,ewallet,C049,Liyana Hassan,Shah Alam,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1083,2026-02-17 01:05:00+08:00,2026-02,paid,ewallet,C049,Liyana Hassan,Shah Alam,P008,Python for Beginners (Book),Books,3,72.0,216.0
+ORD-1084,2026-02-17 08:36:00+08:00,2026-02,shipped,ewallet,C003,Liyana Nair,Shah Alam,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1085,2026-02-18 11:10:00+08:00,2026-02,paid,ewallet,C015,Irfan Tan,Melaka,P008,Python for Beginners (Book),Books,3,72.0,216.0
+ORD-1086,2026-02-18 11:53:00+08:00,2026-02,shipped,card,C048,Siti Rahman,Kuching,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1086,2026-02-18 11:53:00+08:00,2026-02,shipped,card,C048,Siti Rahman,Kuching,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1087,2026-02-18 14:54:00+08:00,2026-02,paid,fpx,C049,Liyana Hassan,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1087,2026-02-18 14:54:00+08:00,2026-02,paid,fpx,C049,Liyana Hassan,Shah Alam,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1088,2026-02-18 16:18:00+08:00,2026-02,shipped,ewallet,C017,Arjun Abdullah,Shah Alam,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1088,2026-02-18 16:18:00+08:00,2026-02,shipped,ewallet,C017,Arjun Abdullah,Shah Alam,P012,Canvas Tote Bag,Fashion,4,29.9,119.6
+ORD-1090,2026-02-20 06:05:00+08:00,2026-02,paid,ewallet,C008,Farah Kumar,Unknown,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1090,2026-02-20 06:05:00+08:00,2026-02,paid,ewallet,C008,Farah Kumar,Unknown,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1091,2026-02-20 13:27:00+08:00,2026-02,paid,card,C018,Kavitha Nair,Kota Kinabalu,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1092,2026-02-21 08:38:00+08:00,2026-02,paid,cod,C044,Liyana Nair,Unknown,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1092,2026-02-21 08:38:00+08:00,2026-02,paid,cod,C044,Liyana Nair,Unknown,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1093,2026-02-21 18:05:00+08:00,2026-02,paid,card,C017,Arjun Abdullah,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1093,2026-02-21 18:05:00+08:00,2026-02,paid,card,C017,Arjun Abdullah,Shah Alam,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1094,2026-02-22 03:50:00+08:00,2026-02,paid,ewallet,C029,Kavitha Abdullah,Unknown,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1095,2026-02-23 01:41:00+08:00,2026-02,paid,fpx,C017,Arjun Abdullah,Shah Alam,P004,Laptop Stand,Electronics,2,89.5,179.0
+ORD-1095,2026-02-23 01:41:00+08:00,2026-02,paid,fpx,C017,Arjun Abdullah,Shah Alam,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1095,2026-02-23 01:41:00+08:00,2026-02,paid,fpx,C017,Arjun Abdullah,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1096,2026-02-23 15:33:00+08:00,2026-02,shipped,card,C044,Liyana Nair,Unknown,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1096,2026-02-23 15:33:00+08:00,2026-02,shipped,card,C044,Liyana Nair,Unknown,P011,Running Shoes,Fashion,4,219.0,876.0
+ORD-1098,2026-02-24 08:44:00+08:00,2026-02,shipped,card,C015,Irfan Tan,Melaka,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1099,2026-02-24 21:15:00+08:00,2026-02,shipped,ewallet,C006,Arjun Ismail,Penang,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1099,2026-02-24 21:15:00+08:00,2026-02,shipped,ewallet,C006,Arjun Ismail,Penang,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1099,2026-02-24 21:15:00+08:00,2026-02,shipped,ewallet,C006,Arjun Ismail,Penang,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1100,2026-02-26 22:40:00+08:00,2026-02,paid,ewallet,C031,Hafiz Lim,Shah Alam,P001,Wireless Mouse,Electronics,4,49.9,199.6
+ORD-1100,2026-02-26 22:40:00+08:00,2026-02,paid,ewallet,C031,Hafiz Lim,Shah Alam,P008,Python for Beginners (Book),Books,2,72.0,144.0
+ORD-1101,2026-02-27 05:44:00+08:00,2026-02,shipped,fpx,C021,Liyana Kumar,Unknown,P002,USB-C Charger,Electronics,3,79.0,237.0
+ORD-1101,2026-02-27 05:44:00+08:00,2026-02,shipped,fpx,C021,Liyana Kumar,Unknown,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1102,2026-03-01 01:29:00+08:00,2026-03,paid,card,C024,Siti Lee,Ipoh,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1102,2026-03-01 01:29:00+08:00,2026-03,paid,card,C024,Siti Lee,Ipoh,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1103,2026-03-01 17:00:00+08:00,2026-03,shipped,cod,C046,Arjun Hassan,Kuala Lumpur,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1104,2026-03-02 01:43:00+08:00,2026-03,paid,card,C037,Arjun Lee,Unknown,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1105,2026-03-02 05:32:00+08:00,2026-03,paid,card,C005,Aina Hassan,Penang,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1105,2026-03-02 05:32:00+08:00,2026-03,paid,card,C005,Aina Hassan,Penang,P007,Bath Towel Set,Home,3,55.0,165.0
+ORD-1106,2026-03-02 20:47:00+08:00,2026-03,shipped,cod,C045,Marcus Kumar,Ipoh,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1106,2026-03-02 20:47:00+08:00,2026-03,shipped,cod,C045,Marcus Kumar,Ipoh,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1108,2026-03-03 13:10:00+08:00,2026-03,paid,fpx,C042,Siti Lee,Kuala Lumpur,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1108,2026-03-03 13:10:00+08:00,2026-03,paid,fpx,C042,Siti Lee,Kuala Lumpur,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1108,2026-03-03 13:10:00+08:00,2026-03,paid,fpx,C042,Siti Lee,Kuala Lumpur,P010,Cotton T-Shirt,Fashion,3,39.9,119.7
+ORD-1109,2026-03-03 16:07:00+08:00,2026-03,shipped,card,C021,Liyana Kumar,Unknown,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1109,2026-03-03 16:07:00+08:00,2026-03,shipped,card,C021,Liyana Kumar,Unknown,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1110,2026-03-04 08:46:00+08:00,2026-03,paid,cod,C028,Ravi Chong,Shah Alam,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1111,2026-03-05 16:22:00+08:00,2026-03,paid,card,C009,Priya Wong,Kuching,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1111,2026-03-05 16:22:00+08:00,2026-03,paid,card,C009,Priya Wong,Kuching,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1111,2026-03-05 16:22:00+08:00,2026-03,paid,card,C009,Priya Wong,Kuching,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1112,2026-03-05 20:20:00+08:00,2026-03,paid,cod,C023,Marcus Abdullah,Shah Alam,P004,Laptop Stand,Electronics,2,89.5,179.0
+ORD-1112,2026-03-05 20:20:00+08:00,2026-03,paid,cod,C023,Marcus Abdullah,Shah Alam,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1113,2026-03-05 20:42:00+08:00,2026-03,paid,ewallet,C046,Arjun Hassan,Kuala Lumpur,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1114,2026-03-06 06:23:00+08:00,2026-03,paid,cod,C013,Liyana Ismail,Kuala Lumpur,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1114,2026-03-06 06:23:00+08:00,2026-03,paid,cod,C013,Liyana Ismail,Kuala Lumpur,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1115,2026-03-06 17:53:00+08:00,2026-03,paid,card,C054,Siti Hassan,Kota Kinabalu,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1115,2026-03-06 17:53:00+08:00,2026-03,paid,card,C054,Siti Hassan,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1116,2026-03-06 20:46:00+08:00,2026-03,paid,ewallet,C019,Irfan Hassan,Shah Alam,P012,Canvas Tote Bag,Fashion,3,29.9,89.7
+ORD-1117,2026-03-07 03:20:00+08:00,2026-03,paid,ewallet,C047,Ravi Ismail,Kuching,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1117,2026-03-07 03:20:00+08:00,2026-03,paid,ewallet,C047,Ravi Ismail,Kuching,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1118,2026-03-07 08:58:00+08:00,2026-03,paid,fpx,C041,Nurul Yusof,Melaka,P008,Python for Beginners (Book),Books,4,72.0,288.0
+ORD-1118,2026-03-07 08:58:00+08:00,2026-03,paid,fpx,C041,Nurul Yusof,Melaka,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1119,2026-03-09 01:56:00+08:00,2026-03,shipped,card,C052,Marcus Yusof,Kota Kinabalu,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1120,2026-03-10 04:27:00+08:00,2026-03,paid,fpx,C007,Hui Min Rahman,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1121,2026-03-10 23:12:00+08:00,2026-03,shipped,fpx,C040,Zul Wong,Penang,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1122,2026-03-11 01:22:00+08:00,2026-03,shipped,fpx,C011,Farah Tan,Kota Kinabalu,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1122,2026-03-11 01:22:00+08:00,2026-03,shipped,fpx,C011,Farah Tan,Kota Kinabalu,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1122,2026-03-11 01:22:00+08:00,2026-03,shipped,fpx,C011,Farah Tan,Kota Kinabalu,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1124,2026-03-11 11:19:00+08:00,2026-03,shipped,fpx,C019,Irfan Hassan,Shah Alam,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1124,2026-03-11 11:19:00+08:00,2026-03,shipped,fpx,C019,Irfan Hassan,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1125,2026-03-11 13:26:00+08:00,2026-03,shipped,cod,C001,Arjun Wong,Penang,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1126,2026-03-12 05:29:00+08:00,2026-03,paid,fpx,C045,Marcus Kumar,Ipoh,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1126,2026-03-12 05:29:00+08:00,2026-03,paid,fpx,C045,Marcus Kumar,Ipoh,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1126,2026-03-12 05:29:00+08:00,2026-03,paid,fpx,C045,Marcus Kumar,Ipoh,P010,Cotton T-Shirt,Fashion,3,39.9,119.7
+ORD-1128,2026-03-16 05:19:00+08:00,2026-03,paid,card,C029,Kavitha Abdullah,Unknown,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1129,2026-03-16 17:40:00+08:00,2026-03,shipped,cod,C051,Zul Hassan,Johor Bahru,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1130,2026-03-17 05:58:00+08:00,2026-03,shipped,card,C050,Siti Nair,Ipoh,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1130,2026-03-17 05:58:00+08:00,2026-03,shipped,card,C050,Siti Nair,Ipoh,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1131,2026-03-17 22:04:00+08:00,2026-03,shipped,fpx,C059,Jason Chong,Kuching,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1131,2026-03-17 22:04:00+08:00,2026-03,shipped,fpx,C059,Jason Chong,Kuching,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1131,2026-03-17 22:04:00+08:00,2026-03,shipped,fpx,C059,Jason Chong,Kuching,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1132,2026-03-18 08:49:00+08:00,2026-03,paid,ewallet,C032,Aisyah Lee,Unknown,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1133,2026-03-20 02:06:00+08:00,2026-03,paid,ewallet,C036,Amir Wong,Shah Alam,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1134,2026-03-20 10:29:00+08:00,2026-03,paid,fpx,C027,Ravi Abdullah,Kota Kinabalu,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1134,2026-03-20 10:29:00+08:00,2026-03,paid,fpx,C027,Ravi Abdullah,Kota Kinabalu,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1135,2026-03-20 11:20:00+08:00,2026-03,shipped,card,C013,Liyana Ismail,Kuala Lumpur,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1135,2026-03-20 11:20:00+08:00,2026-03,shipped,card,C013,Liyana Ismail,Kuala Lumpur,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1136,2026-03-21 04:35:00+08:00,2026-03,shipped,card,C021,Liyana Kumar,Unknown,P004,Laptop Stand,Electronics,3,89.5,268.5
+ORD-1137,2026-03-21 09:52:00+08:00,2026-03,paid,card,C019,Irfan Hassan,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1138,2026-03-21 21:03:00+08:00,2026-03,paid,fpx,C007,Hui Min Rahman,Shah Alam,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1138,2026-03-21 21:03:00+08:00,2026-03,paid,fpx,C007,Hui Min Rahman,Shah Alam,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1139,2026-03-22 04:07:00+08:00,2026-03,paid,cod,C002,Wei Jie Hassan,Melaka,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1140,2026-03-23 05:42:00+08:00,2026-03,shipped,cod,C052,Marcus Yusof,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1141,2026-03-24 12:53:00+08:00,2026-03,paid,fpx,C028,Ravi Chong,Shah Alam,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1141,2026-03-24 12:53:00+08:00,2026-03,paid,fpx,C028,Ravi Chong,Shah Alam,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1142,2026-03-25 05:56:00+08:00,2026-03,paid,cod,C042,Siti Lee,Kuala Lumpur,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1143,2026-03-26 05:26:00+08:00,2026-03,paid,ewallet,C053,Mei Ling Abdullah,Johor Bahru,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1143,2026-03-26 05:26:00+08:00,2026-03,paid,ewallet,C053,Mei Ling Abdullah,Johor Bahru,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1145,2026-03-27 16:49:00+08:00,2026-03,paid,fpx,C002,Wei Jie Hassan,Melaka,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1145,2026-03-27 16:49:00+08:00,2026-03,paid,fpx,C002,Wei Jie Hassan,Melaka,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1145,2026-03-27 16:49:00+08:00,2026-03,paid,fpx,C002,Wei Jie Hassan,Melaka,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1146,2026-03-27 18:27:00+08:00,2026-03,shipped,fpx,C031,Hafiz Lim,Shah Alam,P009,Data Engineering Handbook (Book),Books,4,129.0,516.0
+ORD-1147,2026-03-29 12:07:00+08:00,2026-03,paid,ewallet,C033,Nurul Ismail,Shah Alam,P005,Ceramic Mug,Home,4,24.9,99.6
+ORD-1148,2026-03-29 13:48:00+08:00,2026-03,paid,ewallet,C052,Marcus Yusof,Kota Kinabalu,P008,Python for Beginners (Book),Books,2,72.0,144.0
+ORD-1149,2026-03-30 09:55:00+08:00,2026-03,shipped,ewallet,C058,Kavitha Tan,Kuala Lumpur,P004,Laptop Stand,Electronics,3,89.5,268.5
+ORD-1149,2026-03-30 09:55:00+08:00,2026-03,shipped,ewallet,C058,Kavitha Tan,Kuala Lumpur,P007,Bath Towel Set,Home,4,55.0,220.0
+ORD-1149,2026-03-30 09:55:00+08:00,2026-03,shipped,ewallet,C058,Kavitha Tan,Kuala Lumpur,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1150,2026-04-01 06:53:00+08:00,2026-04,shipped,card,C011,Farah Tan,Kota Kinabalu,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1151,2026-04-01 17:17:00+08:00,2026-04,shipped,card,C009,Priya Wong,Kuching,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1151,2026-04-01 17:17:00+08:00,2026-04,shipped,card,C009,Priya Wong,Kuching,P009,Data Engineering Handbook (Book),Books,4,129.0,516.0
+ORD-1152,2026-04-02 04:38:00+08:00,2026-04,shipped,ewallet,C021,Liyana Kumar,Unknown,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1153,2026-04-02 17:13:00+08:00,2026-04,shipped,fpx,C003,Liyana Nair,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1153,2026-04-02 17:13:00+08:00,2026-04,shipped,fpx,C003,Liyana Nair,Shah Alam,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1154,2026-04-03 03:56:00+08:00,2026-04,paid,cod,C015,Irfan Tan,Melaka,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1154,2026-04-03 03:56:00+08:00,2026-04,paid,cod,C015,Irfan Tan,Melaka,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1155,2026-04-04 05:23:00+08:00,2026-04,shipped,cod,C057,Kavitha Rahman,Penang,P001,Wireless Mouse,Electronics,4,49.9,199.6
+ORD-1155,2026-04-04 05:23:00+08:00,2026-04,shipped,cod,C057,Kavitha Rahman,Penang,P005,Ceramic Mug,Home,4,24.9,99.6
+ORD-1155,2026-04-04 05:23:00+08:00,2026-04,shipped,cod,C057,Kavitha Rahman,Penang,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1156,2026-04-04 22:07:00+08:00,2026-04,paid,cod,C007,Hui Min Rahman,Shah Alam,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1156,2026-04-04 22:07:00+08:00,2026-04,paid,cod,C007,Hui Min Rahman,Shah Alam,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1156,2026-04-04 22:07:00+08:00,2026-04,paid,cod,C007,Hui Min Rahman,Shah Alam,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1157,2026-04-05 21:48:00+08:00,2026-04,shipped,card,C045,Marcus Kumar,Ipoh,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1159,2026-04-06 03:12:00+08:00,2026-04,paid,cod,C038,Hui Min Lim,Melaka,P010,Cotton T-Shirt,Fashion,3,39.9,119.7
+ORD-1160,2026-04-07 17:04:00+08:00,2026-04,paid,card,C016,Liyana Nair,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1161,2026-04-08 00:45:00+08:00,2026-04,shipped,ewallet,C030,Amir Ismail,Unknown,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1161,2026-04-08 00:45:00+08:00,2026-04,shipped,ewallet,C030,Amir Ismail,Unknown,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1162,2026-04-08 12:03:00+08:00,2026-04,paid,ewallet,C014,Jason Wong,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1163,2026-04-08 13:12:00+08:00,2026-04,paid,cod,C006,Arjun Ismail,Penang,P007,Bath Towel Set,Home,3,55.0,165.0
+ORD-1163,2026-04-08 13:12:00+08:00,2026-04,paid,cod,C006,Arjun Ismail,Penang,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1164,2026-04-09 12:23:00+08:00,2026-04,paid,cod,C028,Ravi Chong,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1165,2026-04-10 05:24:00+08:00,2026-04,paid,fpx,C037,Arjun Lee,Unknown,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1165,2026-04-10 05:24:00+08:00,2026-04,paid,fpx,C037,Arjun Lee,Unknown,P003,Bluetooth Earbuds,Electronics,4,159.0,636.0
+ORD-1165,2026-04-10 05:24:00+08:00,2026-04,paid,fpx,C037,Arjun Lee,Unknown,P006,Desk Lamp,Home,4,65.0,260.0
+ORD-1166,2026-04-10 06:39:00+08:00,2026-04,paid,ewallet,C041,Nurul Yusof,Melaka,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1167,2026-04-10 22:57:00+08:00,2026-04,paid,cod,C016,Liyana Nair,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1168,2026-04-11 04:04:00+08:00,2026-04,paid,card,C020,Aisyah Nair,Unknown,P007,Bath Towel Set,Home,4,55.0,220.0
+ORD-1169,2026-04-11 13:43:00+08:00,2026-04,paid,card,C045,Marcus Kumar,Ipoh,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1170,2026-04-12 03:05:00+08:00,2026-04,paid,cod,C011,Farah Tan,Kota Kinabalu,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1170,2026-04-12 03:05:00+08:00,2026-04,paid,cod,C011,Farah Tan,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1171,2026-04-12 18:55:00+08:00,2026-04,paid,fpx,C002,Wei Jie Hassan,Melaka,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1172,2026-04-13 02:26:00+08:00,2026-04,paid,card,C009,Priya Wong,Kuching,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1173,2026-04-14 05:20:00+08:00,2026-04,paid,cod,C053,Mei Ling Abdullah,Johor Bahru,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1175,2026-04-15 13:32:00+08:00,2026-04,shipped,card,C044,Liyana Nair,Unknown,P007,Bath Towel Set,Home,3,55.0,165.0
+ORD-1175,2026-04-15 13:32:00+08:00,2026-04,shipped,card,C044,Liyana Nair,Unknown,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1176,2026-04-15 16:26:00+08:00,2026-04,paid,cod,C031,Hafiz Lim,Shah Alam,P008,Python for Beginners (Book),Books,3,72.0,216.0
+ORD-1177,2026-04-17 19:46:00+08:00,2026-04,shipped,fpx,C059,Jason Chong,Kuching,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1178,2026-04-17 21:47:00+08:00,2026-04,shipped,cod,C018,Kavitha Nair,Kota Kinabalu,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1179,2026-04-19 02:47:00+08:00,2026-04,paid,ewallet,C049,Liyana Hassan,Shah Alam,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1179,2026-04-19 02:47:00+08:00,2026-04,paid,ewallet,C049,Liyana Hassan,Shah Alam,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1180,2026-04-19 06:02:00+08:00,2026-04,shipped,card,C033,Nurul Ismail,Shah Alam,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1180,2026-04-19 06:02:00+08:00,2026-04,shipped,card,C033,Nurul Ismail,Shah Alam,P004,Laptop Stand,Electronics,4,89.5,358.0
+ORD-1181,2026-04-19 20:02:00+08:00,2026-04,paid,cod,C035,Irfan Nair,Kuala Lumpur,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1182,2026-04-19 21:39:00+08:00,2026-04,shipped,fpx,C042,Siti Lee,Kuala Lumpur,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1183,2026-04-21 22:18:00+08:00,2026-04,shipped,fpx,C033,Nurul Ismail,Shah Alam,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1184,2026-04-22 06:47:00+08:00,2026-04,paid,cod,C006,Arjun Ismail,Penang,P012,Canvas Tote Bag,Fashion,3,29.9,89.7
+ORD-1186,2026-04-22 11:39:00+08:00,2026-04,shipped,ewallet,C011,Farah Tan,Kota Kinabalu,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1186,2026-04-22 11:39:00+08:00,2026-04,shipped,ewallet,C011,Farah Tan,Kota Kinabalu,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1187,2026-04-22 15:10:00+08:00,2026-04,paid,ewallet,C014,Jason Wong,Shah Alam,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1189,2026-04-23 05:08:00+08:00,2026-04,shipped,ewallet,C024,Siti Lee,Ipoh,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1190,2026-04-23 14:43:00+08:00,2026-04,shipped,ewallet,C030,Amir Ismail,Unknown,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1191,2026-04-24 09:03:00+08:00,2026-04,paid,cod,C010,Kavitha Yusof,Penang,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1191,2026-04-24 09:03:00+08:00,2026-04,paid,cod,C010,Kavitha Yusof,Penang,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1192,2026-04-25 02:51:00+08:00,2026-04,shipped,ewallet,C019,Irfan Hassan,Shah Alam,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1193,2026-04-25 07:59:00+08:00,2026-04,shipped,fpx,C006,Arjun Ismail,Penang,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1195,2026-04-26 04:09:00+08:00,2026-04,paid,cod,C047,Ravi Ismail,Kuching,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1195,2026-04-26 04:09:00+08:00,2026-04,paid,cod,C047,Ravi Ismail,Kuching,P012,Canvas Tote Bag,Fashion,3,29.9,89.7
+ORD-1196,2026-04-26 05:38:00+08:00,2026-04,paid,card,C015,Irfan Tan,Melaka,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1196,2026-04-26 05:38:00+08:00,2026-04,paid,card,C015,Irfan Tan,Melaka,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1197,2026-04-26 07:16:00+08:00,2026-04,paid,card,C029,Kavitha Abdullah,Unknown,P001,Wireless Mouse,Electronics,4,49.9,199.6
+ORD-1198,2026-04-26 09:42:00+08:00,2026-04,paid,card,C058,Kavitha Tan,Kuala Lumpur,P005,Ceramic Mug,Home,3,24.9,74.7
+ORD-1198,2026-04-26 09:42:00+08:00,2026-04,paid,card,C058,Kavitha Tan,Kuala Lumpur,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1199,2026-04-26 09:55:00+08:00,2026-04,paid,cod,C060,Aina Rahman,Unknown,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1199,2026-04-26 09:55:00+08:00,2026-04,paid,cod,C060,Aina Rahman,Unknown,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1201,2026-04-27 10:56:00+08:00,2026-04,shipped,fpx,C047,Ravi Ismail,Kuching,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1201,2026-04-27 10:56:00+08:00,2026-04,shipped,fpx,C047,Ravi Ismail,Kuching,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1202,2026-04-27 13:29:00+08:00,2026-04,paid,card,C023,Marcus Abdullah,Shah Alam,P005,Ceramic Mug,Home,3,24.9,74.7
+ORD-1203,2026-04-27 17:32:00+08:00,2026-04,paid,fpx,C015,Irfan Tan,Melaka,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1203,2026-04-27 17:32:00+08:00,2026-04,paid,fpx,C015,Irfan Tan,Melaka,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1204,2026-04-27 22:24:00+08:00,2026-04,paid,fpx,C014,Jason Wong,Shah Alam,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1204,2026-04-27 22:24:00+08:00,2026-04,paid,fpx,C014,Jason Wong,Shah Alam,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1205,2026-04-28 04:07:00+08:00,2026-04,shipped,fpx,C008,Farah Kumar,Unknown,P004,Laptop Stand,Electronics,4,89.5,358.0
+ORD-1207,2026-05-01 09:46:00+08:00,2026-05,paid,cod,C027,Ravi Abdullah,Kota Kinabalu,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1208,2026-05-01 23:11:00+08:00,2026-05,paid,ewallet,C010,Kavitha Yusof,Penang,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1208,2026-05-01 23:11:00+08:00,2026-05,paid,ewallet,C010,Kavitha Yusof,Penang,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1209,2026-05-02 10:13:00+08:00,2026-05,shipped,card,C060,Aina Rahman,Unknown,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1210,2026-05-04 00:48:00+08:00,2026-05,shipped,card,C045,Marcus Kumar,Ipoh,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1210,2026-05-04 00:48:00+08:00,2026-05,shipped,card,C045,Marcus Kumar,Ipoh,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1211,2026-05-04 15:13:00+08:00,2026-05,paid,fpx,C024,Siti Lee,Ipoh,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1211,2026-05-04 15:13:00+08:00,2026-05,paid,fpx,C024,Siti Lee,Ipoh,P007,Bath Towel Set,Home,4,55.0,220.0
+ORD-1212,2026-05-04 16:05:00+08:00,2026-05,shipped,card,C041,Nurul Yusof,Melaka,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1213,2026-05-05 04:30:00+08:00,2026-05,paid,cod,C008,Farah Kumar,Unknown,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1214,2026-05-06 19:29:00+08:00,2026-05,shipped,card,C033,Nurul Ismail,Shah Alam,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1215,2026-05-07 00:20:00+08:00,2026-05,paid,fpx,C003,Liyana Nair,Shah Alam,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1216,2026-05-07 10:22:00+08:00,2026-05,shipped,fpx,C024,Siti Lee,Ipoh,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1216,2026-05-07 10:22:00+08:00,2026-05,shipped,fpx,C024,Siti Lee,Ipoh,P004,Laptop Stand,Electronics,2,89.5,179.0
+ORD-1216,2026-05-07 10:22:00+08:00,2026-05,shipped,fpx,C024,Siti Lee,Ipoh,P011,Running Shoes,Fashion,4,219.0,876.0
+ORD-1218,2026-05-08 18:27:00+08:00,2026-05,shipped,card,C019,Irfan Hassan,Shah Alam,P007,Bath Towel Set,Home,4,55.0,220.0
+ORD-1218,2026-05-08 18:27:00+08:00,2026-05,shipped,card,C019,Irfan Hassan,Shah Alam,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1219,2026-05-09 09:23:00+08:00,2026-05,shipped,ewallet,C047,Ravi Ismail,Kuching,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1220,2026-05-10 10:10:00+08:00,2026-05,paid,ewallet,C028,Ravi Chong,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1220,2026-05-10 10:10:00+08:00,2026-05,paid,ewallet,C028,Ravi Chong,Shah Alam,P003,Bluetooth Earbuds,Electronics,2,159.0,318.0
+ORD-1220,2026-05-10 10:10:00+08:00,2026-05,paid,ewallet,C028,Ravi Chong,Shah Alam,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1221,2026-05-10 19:51:00+08:00,2026-05,paid,ewallet,C019,Irfan Hassan,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1222,2026-05-10 22:29:00+08:00,2026-05,shipped,card,C008,Farah Kumar,Unknown,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1222,2026-05-10 22:29:00+08:00,2026-05,shipped,card,C008,Farah Kumar,Unknown,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1222,2026-05-10 22:29:00+08:00,2026-05,shipped,card,C008,Farah Kumar,Unknown,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1223,2026-05-12 05:50:00+08:00,2026-05,paid,cod,C011,Farah Tan,Kota Kinabalu,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1225,2026-05-13 22:01:00+08:00,2026-05,shipped,card,C059,Jason Chong,Kuching,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1225,2026-05-13 22:01:00+08:00,2026-05,shipped,card,C059,Jason Chong,Kuching,P009,Data Engineering Handbook (Book),Books,4,129.0,516.0
+ORD-1226,2026-05-14 08:40:00+08:00,2026-05,paid,ewallet,C019,Irfan Hassan,Shah Alam,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1226,2026-05-14 08:40:00+08:00,2026-05,paid,ewallet,C019,Irfan Hassan,Shah Alam,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1228,2026-05-17 08:30:00+08:00,2026-05,paid,cod,C021,Liyana Kumar,Unknown,P002,USB-C Charger,Electronics,4,79.0,316.0
+ORD-1228,2026-05-17 08:30:00+08:00,2026-05,paid,cod,C021,Liyana Kumar,Unknown,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1228,2026-05-17 08:30:00+08:00,2026-05,paid,cod,C021,Liyana Kumar,Unknown,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1229,2026-05-17 16:53:00+08:00,2026-05,shipped,ewallet,C056,Siti Nair,Ipoh,P005,Ceramic Mug,Home,4,24.9,99.6
+ORD-1229,2026-05-17 16:53:00+08:00,2026-05,shipped,ewallet,C056,Siti Nair,Ipoh,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1230,2026-05-18 04:18:00+08:00,2026-05,shipped,cod,C011,Farah Tan,Kota Kinabalu,P002,USB-C Charger,Electronics,4,79.0,316.0
+ORD-1231,2026-05-19 21:26:00+08:00,2026-05,paid,card,C018,Kavitha Nair,Kota Kinabalu,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1231,2026-05-19 21:26:00+08:00,2026-05,paid,card,C018,Kavitha Nair,Kota Kinabalu,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1231,2026-05-19 21:26:00+08:00,2026-05,paid,card,C018,Kavitha Nair,Kota Kinabalu,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1233,2026-05-20 15:44:00+08:00,2026-05,shipped,ewallet,C004,Liyana Lee,Ipoh,P011,Running Shoes,Fashion,4,219.0,876.0
+ORD-1233,2026-05-20 15:44:00+08:00,2026-05,shipped,ewallet,C004,Liyana Lee,Ipoh,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1234,2026-05-21 13:25:00+08:00,2026-05,paid,fpx,C050,Siti Nair,Ipoh,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1234,2026-05-21 13:25:00+08:00,2026-05,paid,fpx,C050,Siti Nair,Ipoh,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1234,2026-05-21 13:25:00+08:00,2026-05,paid,fpx,C050,Siti Nair,Ipoh,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1235,2026-05-21 20:31:00+08:00,2026-05,shipped,ewallet,C055,Aisyah Abdullah,Melaka,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1236,2026-05-22 11:54:00+08:00,2026-05,shipped,fpx,C027,Ravi Abdullah,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,2,129.0,258.0
+ORD-1237,2026-05-24 17:25:00+08:00,2026-05,shipped,ewallet,C009,Priya Wong,Kuching,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1238,2026-05-24 22:41:00+08:00,2026-05,paid,ewallet,C056,Siti Nair,Ipoh,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1238,2026-05-24 22:41:00+08:00,2026-05,paid,ewallet,C056,Siti Nair,Ipoh,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1239,2026-05-25 04:10:00+08:00,2026-05,paid,cod,C042,Siti Lee,Kuala Lumpur,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1241,2026-05-26 15:39:00+08:00,2026-05,paid,fpx,C040,Zul Wong,Penang,P004,Laptop Stand,Electronics,2,89.5,179.0
+ORD-1242,2026-05-26 21:56:00+08:00,2026-05,paid,ewallet,C028,Ravi Chong,Shah Alam,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1242,2026-05-26 21:56:00+08:00,2026-05,paid,ewallet,C028,Ravi Chong,Shah Alam,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1243,2026-05-28 10:31:00+08:00,2026-05,paid,ewallet,C050,Siti Nair,Ipoh,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1243,2026-05-28 10:31:00+08:00,2026-05,paid,ewallet,C050,Siti Nair,Ipoh,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1244,2026-05-28 10:46:00+08:00,2026-05,paid,ewallet,C032,Aisyah Lee,Unknown,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1244,2026-05-28 10:46:00+08:00,2026-05,paid,ewallet,C032,Aisyah Lee,Unknown,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1245,2026-05-29 06:00:00+08:00,2026-05,paid,fpx,C046,Arjun Hassan,Kuala Lumpur,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1245,2026-05-29 06:00:00+08:00,2026-05,paid,fpx,C046,Arjun Hassan,Kuala Lumpur,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1245,2026-05-29 06:00:00+08:00,2026-05,paid,fpx,C046,Arjun Hassan,Kuala Lumpur,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1246,2026-05-29 06:51:00+08:00,2026-05,shipped,cod,C010,Kavitha Yusof,Penang,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1247,2026-05-29 22:14:00+08:00,2026-05,paid,card,C053,Mei Ling Abdullah,Johor Bahru,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1247,2026-05-29 22:14:00+08:00,2026-05,paid,card,C053,Mei Ling Abdullah,Johor Bahru,P012,Canvas Tote Bag,Fashion,3,29.9,89.7
+ORD-1248,2026-05-30 03:54:00+08:00,2026-05,paid,cod,C052,Marcus Yusof,Kota Kinabalu,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1248,2026-05-30 03:54:00+08:00,2026-05,paid,cod,C052,Marcus Yusof,Kota Kinabalu,P009,Data Engineering Handbook (Book),Books,3,129.0,387.0
+ORD-1249,2026-05-31 00:46:00+08:00,2026-05,paid,ewallet,C060,Aina Rahman,Unknown,P010,Cotton T-Shirt,Fashion,4,39.9,159.6
+ORD-1250,2026-05-31 18:07:00+08:00,2026-05,paid,card,C036,Amir Wong,Shah Alam,P001,Wireless Mouse,Electronics,4,49.9,199.6
+ORD-1251,2026-06-01 15:53:00+08:00,2026-06,shipped,ewallet,C011,Farah Tan,Kota Kinabalu,P004,Laptop Stand,Electronics,1,89.5,89.5
+ORD-1252,2026-06-02 02:59:00+08:00,2026-06,shipped,fpx,C035,Irfan Nair,Kuala Lumpur,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1253,2026-06-02 10:37:00+08:00,2026-06,paid,card,C027,Ravi Abdullah,Kota Kinabalu,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1254,2026-06-03 07:50:00+08:00,2026-06,shipped,ewallet,C031,Hafiz Lim,Shah Alam,P004,Laptop Stand,Electronics,3,89.5,268.5
+ORD-1254,2026-06-03 07:50:00+08:00,2026-06,shipped,ewallet,C031,Hafiz Lim,Shah Alam,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1254,2026-06-03 07:50:00+08:00,2026-06,shipped,ewallet,C031,Hafiz Lim,Shah Alam,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1255,2026-06-03 16:22:00+08:00,2026-06,paid,cod,C054,Siti Hassan,Kota Kinabalu,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1255,2026-06-03 16:22:00+08:00,2026-06,paid,cod,C054,Siti Hassan,Kota Kinabalu,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1256,2026-06-04 19:01:00+08:00,2026-06,paid,ewallet,C057,Kavitha Rahman,Penang,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1256,2026-06-04 19:01:00+08:00,2026-06,paid,ewallet,C057,Kavitha Rahman,Penang,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1256,2026-06-04 19:01:00+08:00,2026-06,paid,ewallet,C057,Kavitha Rahman,Penang,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1257,2026-06-06 03:58:00+08:00,2026-06,shipped,ewallet,C003,Liyana Nair,Shah Alam,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1257,2026-06-06 03:58:00+08:00,2026-06,shipped,ewallet,C003,Liyana Nair,Shah Alam,P010,Cotton T-Shirt,Fashion,1,39.9,39.9
+ORD-1258,2026-06-06 15:28:00+08:00,2026-06,paid,ewallet,C046,Arjun Hassan,Kuala Lumpur,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1259,2026-06-07 05:05:00+08:00,2026-06,shipped,ewallet,C002,Wei Jie Hassan,Melaka,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1259,2026-06-07 05:05:00+08:00,2026-06,shipped,ewallet,C002,Wei Jie Hassan,Melaka,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1259,2026-06-07 05:05:00+08:00,2026-06,shipped,ewallet,C002,Wei Jie Hassan,Melaka,P004,Laptop Stand,Electronics,4,89.5,358.0
+ORD-1260,2026-06-07 13:04:00+08:00,2026-06,paid,ewallet,C022,Hafiz Yusof,Penang,P006,Desk Lamp,Home,4,65.0,260.0
+ORD-1260,2026-06-07 13:04:00+08:00,2026-06,paid,ewallet,C022,Hafiz Yusof,Penang,P007,Bath Towel Set,Home,2,55.0,110.0
+ORD-1260,2026-06-07 13:04:00+08:00,2026-06,paid,ewallet,C022,Hafiz Yusof,Penang,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1262,2026-06-07 17:46:00+08:00,2026-06,paid,ewallet,C008,Farah Kumar,Unknown,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1263,2026-06-07 18:22:00+08:00,2026-06,paid,fpx,C043,Mei Ling Rahman,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1264,2026-06-09 20:41:00+08:00,2026-06,paid,fpx,C040,Zul Wong,Penang,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1264,2026-06-09 20:41:00+08:00,2026-06,paid,fpx,C040,Zul Wong,Penang,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1265,2026-06-09 23:08:00+08:00,2026-06,paid,fpx,C008,Farah Kumar,Unknown,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1266,2026-06-10 10:23:00+08:00,2026-06,paid,card,C027,Ravi Abdullah,Kota Kinabalu,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1266,2026-06-10 10:23:00+08:00,2026-06,paid,card,C027,Ravi Abdullah,Kota Kinabalu,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1266,2026-06-10 10:23:00+08:00,2026-06,paid,card,C027,Ravi Abdullah,Kota Kinabalu,P012,Canvas Tote Bag,Fashion,4,29.9,119.6
+ORD-1267,2026-06-11 09:04:00+08:00,2026-06,paid,card,C057,Kavitha Rahman,Penang,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1268,2026-06-11 20:54:00+08:00,2026-06,paid,card,C050,Siti Nair,Ipoh,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1268,2026-06-11 20:54:00+08:00,2026-06,paid,card,C050,Siti Nair,Ipoh,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1269,2026-06-12 21:25:00+08:00,2026-06,shipped,ewallet,C043,Mei Ling Rahman,Shah Alam,P007,Bath Towel Set,Home,3,55.0,165.0
+ORD-1270,2026-06-13 01:41:00+08:00,2026-06,shipped,card,C051,Zul Hassan,Johor Bahru,P005,Ceramic Mug,Home,2,24.9,49.8
+ORD-1270,2026-06-13 01:41:00+08:00,2026-06,shipped,card,C051,Zul Hassan,Johor Bahru,P006,Desk Lamp,Home,1,65.0,65.0
+ORD-1270,2026-06-13 01:41:00+08:00,2026-06,shipped,card,C051,Zul Hassan,Johor Bahru,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1271,2026-06-13 06:39:00+08:00,2026-06,paid,ewallet,C015,Irfan Tan,Melaka,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1271,2026-06-13 06:39:00+08:00,2026-06,paid,ewallet,C015,Irfan Tan,Melaka,P012,Canvas Tote Bag,Fashion,3,29.9,89.7
+ORD-1272,2026-06-13 20:44:00+08:00,2026-06,shipped,card,C007,Hui Min Rahman,Shah Alam,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1273,2026-06-14 05:26:00+08:00,2026-06,paid,card,C011,Farah Tan,Kota Kinabalu,P011,Running Shoes,Fashion,3,219.0,657.0
+ORD-1274,2026-06-14 13:57:00+08:00,2026-06,paid,card,C026,Zul Yusof,Kota Kinabalu,P001,Wireless Mouse,Electronics,2,49.9,99.8
+ORD-1276,2026-06-16 01:19:00+08:00,2026-06,paid,fpx,C050,Siti Nair,Ipoh,P001,Wireless Mouse,Electronics,4,49.9,199.6
+ORD-1276,2026-06-16 01:19:00+08:00,2026-06,paid,fpx,C050,Siti Nair,Ipoh,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1277,2026-06-17 16:21:00+08:00,2026-06,paid,cod,C038,Hui Min Lim,Melaka,P002,USB-C Charger,Electronics,2,79.0,158.0
+ORD-1277,2026-06-17 16:21:00+08:00,2026-06,paid,cod,C038,Hui Min Lim,Melaka,P006,Desk Lamp,Home,2,65.0,130.0
+ORD-1277,2026-06-17 16:21:00+08:00,2026-06,paid,cod,C038,Hui Min Lim,Melaka,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1278,2026-06-17 17:54:00+08:00,2026-06,paid,fpx,C031,Hafiz Lim,Shah Alam,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1279,2026-06-18 00:10:00+08:00,2026-06,paid,cod,C055,Aisyah Abdullah,Melaka,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1279,2026-06-18 00:10:00+08:00,2026-06,paid,cod,C055,Aisyah Abdullah,Melaka,P012,Canvas Tote Bag,Fashion,1,29.9,29.9
+ORD-1280,2026-06-18 08:28:00+08:00,2026-06,paid,cod,C053,Mei Ling Abdullah,Johor Bahru,P002,USB-C Charger,Electronics,3,79.0,237.0
+ORD-1281,2026-06-18 09:42:00+08:00,2026-06,paid,ewallet,C035,Irfan Nair,Kuala Lumpur,P011,Running Shoes,Fashion,2,219.0,438.0
+ORD-1282,2026-06-18 10:58:00+08:00,2026-06,shipped,card,C003,Liyana Nair,Shah Alam,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1283,2026-06-18 23:15:00+08:00,2026-06,paid,ewallet,C033,Nurul Ismail,Shah Alam,P012,Canvas Tote Bag,Fashion,2,29.9,59.8
+ORD-1284,2026-06-19 00:45:00+08:00,2026-06,paid,card,C031,Hafiz Lim,Shah Alam,P002,USB-C Charger,Electronics,4,79.0,316.0
+ORD-1286,2026-06-22 05:11:00+08:00,2026-06,paid,ewallet,C038,Hui Min Lim,Melaka,P003,Bluetooth Earbuds,Electronics,1,159.0,159.0
+ORD-1287,2026-06-22 13:29:00+08:00,2026-06,shipped,card,C037,Arjun Lee,Unknown,P010,Cotton T-Shirt,Fashion,2,39.9,79.8
+ORD-1287,2026-06-22 13:29:00+08:00,2026-06,shipped,card,C037,Arjun Lee,Unknown,P011,Running Shoes,Fashion,1,219.0,219.0
+ORD-1289,2026-06-23 17:13:00+08:00,2026-06,paid,card,C021,Liyana Kumar,Unknown,P005,Ceramic Mug,Home,4,24.9,99.6
+ORD-1289,2026-06-23 17:13:00+08:00,2026-06,paid,card,C021,Liyana Kumar,Unknown,P006,Desk Lamp,Home,3,65.0,195.0
+ORD-1290,2026-06-24 11:39:00+08:00,2026-06,paid,ewallet,C022,Hafiz Yusof,Penang,P003,Bluetooth Earbuds,Electronics,3,159.0,477.0
+ORD-1291,2026-06-24 23:27:00+08:00,2026-06,shipped,cod,C048,Siti Rahman,Kuching,P001,Wireless Mouse,Electronics,3,49.9,149.7
+ORD-1291,2026-06-24 23:27:00+08:00,2026-06,shipped,cod,C048,Siti Rahman,Kuching,P002,USB-C Charger,Electronics,4,79.0,316.0
+ORD-1291,2026-06-24 23:27:00+08:00,2026-06,shipped,cod,C048,Siti Rahman,Kuching,P005,Ceramic Mug,Home,1,24.9,24.9
+ORD-1292,2026-06-25 23:25:00+08:00,2026-06,paid,fpx,C034,Hui Min Nair,Shah Alam,P007,Bath Towel Set,Home,1,55.0,55.0
+ORD-1293,2026-06-26 14:44:00+08:00,2026-06,paid,fpx,C060,Aina Rahman,Unknown,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1293,2026-06-26 14:44:00+08:00,2026-06,paid,fpx,C060,Aina Rahman,Unknown,P012,Canvas Tote Bag,Fashion,4,29.9,119.6
+ORD-1294,2026-06-26 16:16:00+08:00,2026-06,paid,ewallet,C034,Hui Min Nair,Shah Alam,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1295,2026-06-28 02:56:00+08:00,2026-06,paid,fpx,C055,Aisyah Abdullah,Melaka,P001,Wireless Mouse,Electronics,1,49.9,49.9
+ORD-1295,2026-06-28 02:56:00+08:00,2026-06,paid,fpx,C055,Aisyah Abdullah,Melaka,P002,USB-C Charger,Electronics,1,79.0,79.0
+ORD-1295,2026-06-28 02:56:00+08:00,2026-06,paid,fpx,C055,Aisyah Abdullah,Melaka,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1297,2026-06-29 04:17:00+08:00,2026-06,paid,cod,C035,Irfan Nair,Kuala Lumpur,P009,Data Engineering Handbook (Book),Books,1,129.0,129.0
+ORD-1298,2026-06-29 07:40:00+08:00,2026-06,paid,ewallet,C040,Zul Wong,Penang,P008,Python for Beginners (Book),Books,1,72.0,72.0
+ORD-1299,2026-06-29 09:17:00+08:00,2026-06,shipped,cod,C055,Aisyah Abdullah,Melaka,P008,Python for Beginners (Book),Books,3,72.0,216.0
+ORD-1299,2026-06-29 09:17:00+08:00,2026-06,shipped,cod,C055,Aisyah Abdullah,Melaka,P012,Canvas Tote Bag,Fashion,4,29.9,119.6

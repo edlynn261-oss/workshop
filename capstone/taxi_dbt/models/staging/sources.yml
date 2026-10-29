@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: trips
+        description: NYC yellow-taxi trip records, exactly as downloaded
+      - name: zones
+        description: Taxi zone lookup (LocationID -> Borough, Zone)

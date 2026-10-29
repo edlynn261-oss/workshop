@@ -1,0 +1,12 @@
+name: shop_dbt
+version: "1.0.0"
+profile: shop_dbt
+
+model-paths: ["models"]
+
+models:
+  shop_dbt:
+    staging:
+      +materialized: view   # staging = light cleaning, saved as views
+    marts:
+      +materialized: table  # marts = business-ready tables
